@@ -1,8 +1,30 @@
 body{
-  background-color: lightblue;
+
 }
 
 
 .calculator__display {
   box-shadow: lightcoral;
+}
+.container{
+  margin: auto;
+  background-color: #9dd2ea;
+  width: 295px;
+  height: 325px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.calculator__keys {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.calc__Symbols {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
 }
