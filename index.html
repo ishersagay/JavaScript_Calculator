@@ -2,37 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Calculator</title>
+    <title>CalculatorV2.0</title>
     <link href="main.css" rel="stylesheet">
 </head>
 <body>
-<div class="container">
-    <div class="calculator">
-        <div class="calculator__display"></div>
-        <div class="calc__Symbols">
-        <button onclick="plus()">+</button>
-        <button onclick="minus()">-</button>
-        <button onclick="multiplication()">*</button>
-        <button onclick="division()">÷</button>
-        <button >.</button>
-        <button onclick="fullReset()">C</button>
+<div class="calculator">
+    <div class="calculator-screen">0</div>
 
-        </div>
-            <div class="calculator__keys">
-            <button value="1">1</button>
-            <button value="2">2</button>
-            <button value="3">3</button>
-            <button value="4">4</button>
-            <button value="5">5</button>
-            <button value="6">6</button>
-            <button value="7">7</button>
-            <button value="8">8</button>
-            <button value="9">9</button>
-            <button value="0">0</button>
-        </div>
-        <button onclick="equals()">=</button>
+    <div class="calculator-keys">
+        <button type="button" class="operator" value="+">+</button>
+        <button type="button" class="operator" value="-">-</button>
+        <button type="button" class="operator" value="*">*</button>
+        <button type="button" class="operator" value="/">/</button>
+
+        <button type="button" value="7">7</button>
+        <button type="button" value="8">8</button>
+        <button type="button" value="9">9</button>
+
+        <button type="button" value="4">4</button>
+        <button type="button" value="5">5</button>
+        <button type="button" value="6">6</button>
+
+        <button type="button" value="1">1</button>
+        <button type="button" value="2">2</button>
+        <button type="button" value="3">3</button>
+
+        <button type="button" value="0">0</button>
+        <button type="button" class="decimal" value=".">.</button>
+        <button type="button" class="all-clear" value="all-clear">AC</button>
+
+        <button type="button" class="equal-sign" value="=">=</button>
     </div>
 </div>
 </body>
-<script src="main.js"></script>
+<script src="main.js" async defer></script>
 </html>
